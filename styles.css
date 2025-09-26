@@ -4,10 +4,23 @@ body {
     background-color: white;
 }
 
+button {
+    background-color: #1172d4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+}
+
 #navbar {
     display: flex;
     justify-content: space-between;
 
+}
+
+#linebreak {
+    height: 1px;
+    margin-right: 5px;
 }
 
 #body-div {
@@ -60,5 +73,17 @@ body {
 
 
 #education-div p {
+    color: #4c739a;
+}
+
+.project-div {
+    text-align: center;
+}
+
+.project-image {
+    width: 100%;
+}
+
+.project-div p{
     color: #4c739a;
 }
