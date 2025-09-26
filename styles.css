@@ -1,0 +1,64 @@
+
+body {
+    font-family: Inter, "Noto Sans", sans-serif;
+    background-color: white;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#body-div {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+#main-content-div {
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+}
+
+#main-content-div > div {
+    margin: 10px;
+}
+
+#bio-div {
+    text-align: center;
+}
+
+#bio-div p {
+    color: #4c739a;
+}
+
+#profile-picture {
+    max-height: 150px;
+    border-radius: 50%;
+}
+
+#skills-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skill-card {
+    width: 80%;
+    border: 2px solid #cfdbe7;
+    border-radius: 8px;
+
+    text-align: center;
+    margin: 2px;
+
+    font-weight: bold;
+}
+
+
+#education-div p {
+    color: #4c739a;
+}
