@@ -18,6 +18,23 @@ button {
 
 }
 
+#navbar a {
+    color: black;
+    text-decoration: none;
+    font-weight: 200;
+    margin: 5px;
+}
+
+#brand-div {
+    display: flex;
+    justify-content: center;
+}
+
+#brand-div a {
+    font-weight: bolder;
+    font-size: larger;
+}
+
 #linebreak {
     height: 1px;
     margin-right: 5px;
